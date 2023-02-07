@@ -1,8 +1,8 @@
 import cv2
 from roboflow import Roboflow
-rf = Roboflow(api_key="cn28TNUzySjIEfqf10qU")
-project = rf.workspace().project("perezbot")
-model = project.version(1).model
+rf = Roboflow(api_key="Your API Key")
+project = rf.workspace().project("Projekt Name")
+model = project.version(Project Version).model
 
 # Initialize camera
 cap = cv2.VideoCapture(0)
